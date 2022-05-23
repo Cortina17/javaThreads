@@ -1,10 +1,10 @@
 package claseThreads;
 
 public class ThreadTest {
-	//main es el hilo principal
+	// main es el hilo principal
 	public static void main(String[] args) {
 		HelloRunner r = new HelloRunner();
-		Thread t = new Thread(r);//Se usa patron Decorator
+		Thread t = new Thread(r);// Se usa patron Decorator
 		t.start();
 	}
 }
