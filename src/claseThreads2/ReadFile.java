@@ -1,3 +1,5 @@
+package claseThreads2;
+
 import java.io.*;
 
 public class ReadFile {
