@@ -8,7 +8,7 @@ import java.io.*;
 public class WriteFile {
 
 	public static void main(String[] args) {
-		File file = new File("c://Ale//", "hola.txt");
+		File file = new File("C:\\Users\\dcortina\\Desktop", "hola.txt");
 		try {
 			// ESTOY LEYENDO DESDE EL TECLADO
 			InputStreamReader isr = new InputStreamReader(System.in);

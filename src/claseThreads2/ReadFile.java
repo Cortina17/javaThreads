@@ -5,7 +5,7 @@ import java.io.*;
 public class ReadFile {
 	public static void main(String[] args) {
 		// File file = new File(args[0]); // .....> c://Ale//hola.txt
-		File file = new File("c://Ale//", "hola.txt"); // argumentos: PATH, NombredeArchivo
+		File file = new File("C:\\Users\\dcortina\\Desktop", "hola.txt"); // argumentos: PATH, NombredeArchivo
 
 		try {
 			FileReader f = new FileReader(file);
