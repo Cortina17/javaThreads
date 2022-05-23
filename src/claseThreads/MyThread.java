@@ -10,7 +10,7 @@ public class MyThread extends Thread {
 		int i = 0;
 		while (true) {
 			try {
-				Thread.sleep(2000);
+				Thread.sleep(0001);
 				System.out.println("Hello " + i++);
 				if (i == 50) {
 					break;
